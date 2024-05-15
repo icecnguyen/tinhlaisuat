@@ -12,8 +12,7 @@ int main()
     cout << "a: so tien sau" << endl;
 
     //khai báo biến
-    int x, y, z;
-    double a, p, r, n;
+    long double a, p, r, n;
 
     //nhập số liệu
     cout << "nhap so tien ban dau: ";
