@@ -13,10 +13,7 @@ int main()
 
     //khai báo biến
     int x, y, z;
-    double a;
-    double p;
-    double r;
-    double n;
+    double a, p, r, n;
 
     //nhập số liệu
     cout << "nhap so tien ban dau: ";
@@ -29,5 +26,4 @@ int main()
     //tính lãi suất kép
     a = p * pow( 1.0 + r, n );
     cout << "so tien sau la: " << a << endl;
-    return 0;
 }
